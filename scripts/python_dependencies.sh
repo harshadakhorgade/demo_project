@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-PROJECT_MAIN_DIR_NAME="demo_project"
+PROJECT_MAIN_DIR_NAME="deploy_project/demo_project"
 
 # Validate variables
 if [ -z "$PROJECT_MAIN_DIR_NAME" ]; then

@@ -8,7 +8,7 @@ GIT_REPO_URL="https://github.com/harshadakhorgade/demo_project.git"
 #GIT_REPO_URL="https://<your_username>:<your_PAT>@github.com/codewithmuh/django-aws-ec2-autoscaling.git"
 
 # Replace {YOUR_PROJECT_MAIN_DIR_NAME} with your actual project directory name
-PROJECT_MAIN_DIR_NAME="demo_project"
+PROJECT_MAIN_DIR_NAME="deploy_project/demo_project"
 
 # Clone repository
 git clone "$GIT_REPO_URL" "/home/ubuntu/$PROJECT_MAIN_DIR_NAME"
