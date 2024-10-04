@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 # Replace {YOUR_PROJECT_MAIN_DIR_NAME} with your actual project directory name
-PROJECT_MAIN_DIR_NAME="deploy_project/demo_project"
+PROJECT_MAIN_DIR_NAME="demo_project"
 
 # Replace {FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS} with the folder name where your nginx configuration file exists
-FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="deploy_project/demo_project"
+FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="demo_project"
 
 # Reload systemd daemon
 sudo systemctl daemon-reload
